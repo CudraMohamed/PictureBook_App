@@ -72,14 +72,26 @@
             android:id="@+id/tvData"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:text="Big Data Technologies can be defined as software tools for analyzing, processing, and extracting data from an extremely complex and large data set with which traditional management tools can never deal.  Examples included MongoDB, Redis, and Cassandra. It covers the integrity of design, easier horizontal scaling to an array of devices and ease control over opportunities. It uses data structures that are different from those accounted by default in relational databases, it makes computations quicker in NoSQL."
             app:layout_constraintBottom_toTopOf="@+id/guideline4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+        <TextView
+            android:id="@+id/tvBigTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIG DATA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
